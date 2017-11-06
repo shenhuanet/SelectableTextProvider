@@ -7,7 +7,7 @@ A text view that supports selection and expansion.
 ## Usage:
 * gradle dependencies:
 ``` java
-compile 'com.shenhua.libs:selectableTextProvider:1.0.0'
+compile 'com.shenhua.libs:selectableTextProvider:1.0.1'
 ```
 * simple use:
 ``` java

@@ -183,7 +183,9 @@ public class SelectableTextProvider {
         selectText(startOffset, endOffset);
         showCursorHandle(mStartHandle);
         showCursorHandle(mEndHandle);
-        mOperateWindow.show();
+        if (mOperateWindow != null) {
+            mOperateWindow.show();
+        }
     }
 
     private void showCursorHandle(CursorHandle cursorHandle) {
@@ -376,10 +378,14 @@ public class SelectableTextProvider {
                     break;
                 case MotionEvent.ACTION_UP:
                 case MotionEvent.ACTION_CANCEL:
-                    mOperateWindow.show();
+                    if (mOperateWindow != null) {
+                        mOperateWindow.show();
+                    }
                     break;
                 case MotionEvent.ACTION_MOVE:
-                    mOperateWindow.dismiss();
+                    if (mOperateWindow != null) {
+                        mOperateWindow.dismiss();
+                    }
                     int rawX = (int) event.getRawX();
                     int rawY = (int) event.getRawY();
                     update(rawX + mAdjustX - mWidth, rawY + mAdjustY - mHeight);

@@ -8,7 +8,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -34,12 +34,12 @@ ext {
     bintrayName = 'selectableTextProvider'
     bintrayGroupName = 'shenhuanetos'
     publishedGroupId = 'com.shenhua.libs'
-    libraryName = 'library'
-    artifact = 'library'
+    libraryName = 'selectableTextProvider'
+    artifact = 'selectableTextProvider'
     libraryDescription = 'A text view that supports selection and expansion.'
     siteUrl = 'https://github.com/shenhuanet/SelectableTextProvider'
     gitUrl = 'https://github.com/shenhuanet/SelectableTextProvider.git'
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
     developerId = 'shenhua'
     developerName = 'shenhua'
     developerEmail = 'shenhuanet@126.com'
