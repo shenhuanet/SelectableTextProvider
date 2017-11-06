@@ -4,6 +4,11 @@
 
 A text view that supports selection and expansion.
 
+## Screenshot:
+<div align="center">
+    <img width="300" height="533" src="https://github.com/shenhuanet/AndroidOpen/blob/master/selectabletextprovider/img_screenshot.png"/>
+</div>
+
 ## Usage:
 * gradle dependencies:
 ``` java
