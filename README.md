@@ -47,13 +47,13 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 }
 ```
 
-## 关于作者
-博客：http://blog.csdn.net/klxh2009<br>
-简书：http://www.jianshu.com/u/12a81897d5bc
+## About Me
+CSDN：http://blog.csdn.net/klxh2009<br>
+JianShu：http://www.jianshu.com/u/12a81897d5bc
 
 ## License
 
-    Copyright 2017 ShenhuaNet
+    Copyright 2017 shenhuanet
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
